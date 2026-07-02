@@ -1,0 +1,64 @@
+<svg width="460" height="260" viewBox="0 0 460 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">voixera GitHub overview</title>
+  <desc id="desc">Animated GitHub overview card.</desc>
+  <style>
+    .title { fill: #24292f; font: 700 18px Segoe UI, Ubuntu, Sans-Serif; }
+    .overview-title { fill: #0366d6; font: 700 18px Segoe UI, Ubuntu, Sans-Serif; }
+    .subtitle { fill: #57606a; font: 500 12px Segoe UI, Ubuntu, Sans-Serif; }
+    .label { fill: #24292f; font: 500 14px Segoe UI, Ubuntu, Sans-Serif; }
+    .value { fill: #24292f; font: 500 14px Segoe UI, Ubuntu, Sans-Serif; text-anchor: end; }
+    .small { fill: #57606a; font: 600 12px Segoe UI, Ubuntu, Sans-Serif; }
+    .icon { fill: #57606a; font: 700 15px Segoe UI, Ubuntu, Sans-Serif; text-anchor: middle; }
+    .language-label { fill: #24292f; font: 600 13px Segoe UI, Ubuntu, Sans-Serif; }
+    .language-percent { fill: #57606a; font: 500 13px Segoe UI, Ubuntu, Sans-Serif; }
+  </style>
+  <rect x="0.5" y="0.5" width="459" height="259" rx="8" fill="#ffffff" stroke="#d0d7de" />
+  <g id="loader">
+    <rect x="24" y="25" width="180" height="18" rx="9" fill="#eaeef2" />
+    <rect x="24" y="60" width="412" height="14" rx="7" fill="#eaeef2" />
+    <rect x="24" y="92" width="368" height="14" rx="7" fill="#eaeef2" />
+    <rect x="24" y="124" width="322" height="14" rx="7" fill="#eaeef2" />
+    <rect x="-120" y="0" width="90" height="260" fill="#ffffff" opacity=".55">
+      <animate attributeName="x" values="-120;540" dur="1.15s" repeatCount="2" />
+    </rect>
+    <animate attributeName="opacity" values="1;1;0" keyTimes="0;.72;1" dur="1.45s" fill="freeze" />
+  </g>
+  <g id="content" opacity="0" transform="translate(0 8)">
+    <animate attributeName="opacity" values="0;1" begin=".95s" dur=".45s" fill="freeze" />
+    <animateTransform attributeName="transform" type="translate" values="0 8;0 0" begin=".95s" dur=".45s" fill="freeze" />
+    <text x="24" y="42" class="overview-title">voixera's GitHub Statistics</text>
+    
+    <g transform="translate(24 74)">
+      <text x="10" y="5" class="icon">☆</text>
+      <text x="32" y="5" class="label">Stars</text>
+      <text x="390" y="5" class="value">32</text>
+    </g>
+    <g transform="translate(24 101)">
+      <text x="10" y="5" class="icon">⑂</text>
+      <text x="32" y="5" class="label">Forks</text>
+      <text x="390" y="5" class="value">0</text>
+    </g>
+    <g transform="translate(24 128)">
+      <text x="10" y="5" class="icon">⇄</text>
+      <text x="32" y="5" class="label">All-time contributions</text>
+      <text x="390" y="5" class="value">0</text>
+    </g>
+    <g transform="translate(24 155)">
+      <text x="10" y="5" class="icon">±</text>
+      <text x="32" y="5" class="label">Lines of code changed</text>
+      <text x="390" y="5" class="value">0</text>
+    </g>
+    <g transform="translate(24 182)">
+      <text x="10" y="5" class="icon">◉</text>
+      <text x="32" y="5" class="label">Repository views (past two weeks)</text>
+      <text x="390" y="5" class="value">0</text>
+    </g>
+    <g transform="translate(24 209)">
+      <text x="10" y="5" class="icon">▣</text>
+      <text x="32" y="5" class="label">Repositories with contributions</text>
+      <text x="390" y="5" class="value">18</text>
+    </g>
+
+  </g>
+  <!-- cache-bust: 28565840221-1-37fea7f007d699d85e3cff1920c6aecde5f3a475 -->
+</svg>

@@ -1,0 +1,51 @@
+name: Generate snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+env:
+  PROFILE_USERNAME: ${{ vars.PROFILE_USERNAME || github.repository_owner }}
+  CACHE_BUST: ${{ github.run_id }}-${{ github.run_attempt }}-${{ github.sha }}
+
+jobs:
+  generate:
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate snake svg
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ env.PROFILE_USERNAME }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Fix generated SVG ownership
+        run: sudo chown -R "$(id -u):$(id -g)" dist
+
+      - name: Stamp snake SVG cache
+        run: node scripts/stamp-svg-cache.mjs dist
+
+      - name: Publish to output branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: output
+          folder: dist
+          clean: true

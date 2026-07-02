@@ -1,0 +1,49 @@
+name: Generate language stats
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+env:
+  PROFILE_USERNAME: ${{ vars.PROFILE_USERNAME || github.repository_owner }}
+  CACHE_BUST: ${{ github.run_id }}-${{ github.run_attempt }}-${{ github.sha }}
+
+jobs:
+  generate:
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate SVG from file-size language data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ env.PROFILE_USERNAME }}
+          OVERVIEW_OUTPUT_FILE: assets/github-overview.svg
+          LANGUAGE_OUTPUT_FILE: assets/github-languages.svg
+        run: node scripts/generate-language-stats.mjs
+
+      - name: Stamp generated SVG cache
+        run: node scripts/stamp-svg-cache.mjs assets
+
+      - name: Refresh README image cache
+        run: node scripts/refresh-readme-cache.mjs
+
+      - name: Commit generated SVG and README cache
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update github stats cache [skip ci]"
+          file_pattern: README.md assets/github-*.svg
