@@ -66,20 +66,3 @@
 </p>
 
 ---
-
-## Use This Template
-
-1. Click **Use this template** or clone this repository.
-2. Rename the repository to your GitHub username, for example `voixera/voixera`.
-3. Copy this file to `README.md`.
-4. Replace every placeholder:
-   - `voixera` with your GitHub username.
-   - `YOUR_NAME` with your display name.
-   - `YOUR_BANNER_URL` with your banner image or GIF URL.
-   - `YOUR_DISCORD_ID` with your Discord user ID. Remove the Discord `<td>` block if you do not use Lanyard.
-5. Open **Settings > Actions > General** and enable workflow read/write permissions.
-6. Run the workflows manually from the **Actions** tab:
-   - `Generate language stats`
-   - `Generate snake`
-
-Optional: set a repository variable named `PROFILE_USERNAME` if the profile username is different from the repository owner.
