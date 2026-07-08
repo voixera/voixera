@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="YOUR_BANNER_URL" width="100%" alt="banner" />
+  <img src="https://www.image2url.com/r2/default/gifs/1783470804112-c5a4a99f-edfe-4bb4-a61f-61534c4bc91a.gif" width="100%" alt="banner" />
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=56&pause=1600&color=02731B&center=true&vCenter=true&width=800&lines=Hello+I'm+YOUR_NAME;Fullstack+Developer;Tech+Enthusiast" alt="typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=56&pause=1600&color=02731B&center=true&vCenter=true&width=800&lines=Hello+I'm+Faisal;Fullstack+Developer;Tech+Enthusiast" alt="typing intro" />
 </h1>
 
 <table align="center" style="background: #ffffff; border: 1px solid #d0d7de;">
@@ -17,7 +17,7 @@
       </a>
     </td>
     <td align="right" valign="middle" style="padding: 16px;">
-      <img src="https://lanyard.cnrad.dev/api/YOUR_DISCORD_ID?borderRadius=18px&animated=true&hideDiscrim=true&showDisplayName=true&idleMessage=probably+building+something..." alt="discord status" />
+      <img src="https://lanyard.cnrad.dev/api/975269168184168539?borderRadius=18px&animated=true&hideDiscrim=true&showDisplayName=true&idleMessage=probably+building+something..." alt="discord status" />
     </td>
   </tr>
 </table>
