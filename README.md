@@ -47,13 +47,13 @@
 </h3>
 
 <div align="center">
-  <img src="./assets/github-overview.svg?cache_bust=initial" width="49%" alt="YOUR_USERNAME GitHub overview" />
-  <img src="./assets/github-languages.svg?cache_bust=initial" width="49%" alt="Most used languages calculated by file size" />
+  <img src="./assets/github-overview.svg?cache_bust=28908488035-1-5a1e28e8156c493591fb54c5b34dfa7250f798eb" width="49%" alt="YOUR_USERNAME GitHub overview" />
+  <img src="./assets/github-languages.svg?cache_bust=28908488035-1-5a1e28e8156c493591fb54c5b34dfa7250f798eb" width="49%" alt="Most used languages calculated by file size" />
 
   <br/><br/>
 
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0d1117&color=02731B&line=02731B&point=ffffff&area=true&area_color=02731B&hide_border=true&custom_title=Activity&radius=6&cache_bust=initial"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0d1117&color=02731B&line=02731B&point=ffffff&area=true&area_color=02731B&hide_border=true&custom_title=Activity&radius=6&cache_bust=28908488035-1-5a1e28e8156c493591fb54c5b34dfa7250f798eb"
     alt="GitHub contribution graph"
     width="98%"
   />
@@ -62,7 +62,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg?cache_bust=initial" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg?cache_bust=28908488035-1-5a1e28e8156c493591fb54c5b34dfa7250f798eb" alt="snake animation" />
 </p>
 
 ---
