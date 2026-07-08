@@ -9,11 +9,11 @@
 <table align="center" style="background: #ffffff; border: 1px solid #d0d7de;">
   <tr>
     <td align="left" valign="middle" style="padding: 16px;">
-      <a href="https://github.com/YOUR_USERNAME">
-        <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=PROFILE%20VIEWS&color=02731B&style=for-the-badge&labelColor=ffffff" alt="profile views" />
+      <a href="https://github.com/voixera">
+        <img src="https://komarev.com/ghpvc/?username=voixera&label=PROFILE%20VIEWS&color=02731B&style=for-the-badge&labelColor=ffffff" alt="profile views" />
       </a>
-      <a href="https://github.com/YOUR_USERNAME/YOUR_USERNAME">
-        <img src="https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_USERNAME?label=STARS&style=for-the-badge&color=02731B&labelColor=ffffff&logo=github&logoColor=24292f" alt="repo stars" />
+      <a href="https://github.com/voixera/voixera">
+        <img src="https://img.shields.io/github/stars/voixera/voixera?label=STARS&style=for-the-badge&color=02731B&labelColor=ffffff&logo=github&logoColor=24292f" alt="repo stars" />
       </a>
     </td>
     <td align="right" valign="middle" style="padding: 16px;">
@@ -47,13 +47,13 @@
 </h3>
 
 <div align="center">
-  <img src="./assets/github-overview.svg?cache_bust=28908488035-1-5a1e28e8156c493591fb54c5b34dfa7250f798eb" width="49%" alt="YOUR_USERNAME GitHub overview" />
+  <img src="./assets/github-overview.svg?cache_bust=28908488035-1-5a1e28e8156c493591fb54c5b34dfa7250f798eb" width="49%" alt="voixera GitHub overview" />
   <img src="./assets/github-languages.svg?cache_bust=28908488035-1-5a1e28e8156c493591fb54c5b34dfa7250f798eb" width="49%" alt="Most used languages calculated by file size" />
 
   <br/><br/>
 
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0d1117&color=02731B&line=02731B&point=ffffff&area=true&area_color=02731B&hide_border=true&custom_title=Activity&radius=6&cache_bust=28908488035-1-5a1e28e8156c493591fb54c5b34dfa7250f798eb"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=voixera&bg_color=0d1117&color=02731B&line=02731B&point=ffffff&area=true&area_color=02731B&hide_border=true&custom_title=Activity&radius=6&cache_bust=28908488035-1-5a1e28e8156c493591fb54c5b34dfa7250f798eb"
     alt="GitHub contribution graph"
     width="98%"
   />
@@ -62,7 +62,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg?cache_bust=28908488035-1-5a1e28e8156c493591fb54c5b34dfa7250f798eb" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/voixera/voixera/output/github-contribution-grid-snake.svg?cache_bust=28908488035-1-5a1e28e8156c493591fb54c5b34dfa7250f798eb" alt="snake animation" />
 </p>
 
 ---
@@ -70,10 +70,10 @@
 ## Use This Template
 
 1. Click **Use this template** or clone this repository.
-2. Rename the repository to your GitHub username, for example `YOUR_USERNAME/YOUR_USERNAME`.
+2. Rename the repository to your GitHub username, for example `voixera/voixera`.
 3. Copy this file to `README.md`.
 4. Replace every placeholder:
-   - `YOUR_USERNAME` with your GitHub username.
+   - `voixera` with your GitHub username.
    - `YOUR_NAME` with your display name.
    - `YOUR_BANNER_URL` with your banner image or GIF URL.
    - `YOUR_DISCORD_ID` with your Discord user ID. Remove the Discord `<td>` block if you do not use Lanyard.
