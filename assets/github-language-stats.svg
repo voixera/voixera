@@ -69,7 +69,7 @@
       <animate attributeName="opacity" values="0;1" begin="1.28s" dur=".35s" fill="freeze" />
       <circle cx="5" cy="7" r="4.5" fill="#000080" />
       <text x="18" y="12" class="language-label">Lua</text>
-      <text x="18" y="12" dx="44" class="language-percent">18.27%</text>
+      <text x="18" y="12" dx="44" class="language-percent">18.28%</text>
     </g>
     <g transform="translate(296 104)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.36s" dur=".35s" fill="freeze" />
@@ -133,5 +133,5 @@
     </g>
 
   </g>
-  <!-- cache-bust: 28908679003-1-d68bb807ebed29247317cb0c0699ad0839f57d1b -->
+  <!-- cache-bust: 28917089109-1-d566e638deec44e77c9c1e53cfcc6f34030f63e3 -->
 </svg>
