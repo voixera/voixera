@@ -31,7 +31,7 @@
     <g transform="translate(24 74)">
       <text x="10" y="5" class="icon">☆</text>
       <text x="32" y="5" class="label">Stars</text>
-      <text x="390" y="5" class="value">32</text>
+      <text x="390" y="5" class="value">30</text>
     </g>
     <g transform="translate(24 101)">
       <text x="10" y="5" class="icon">⑂</text>
@@ -56,9 +56,9 @@
     <g transform="translate(24 209)">
       <text x="10" y="5" class="icon">▣</text>
       <text x="32" y="5" class="label">Repositories with contributions</text>
-      <text x="390" y="5" class="value">22</text>
+      <text x="390" y="5" class="value">21</text>
     </g>
 
   </g>
-  <!-- cache-bust: 30328110909-1-69ab8ed0a269ef703eaeea25c1c50392ba69908c -->
+  <!-- cache-bust: 30421713531-1-d5b35261d26fcd16e0620b064593d1b91d76d0ed -->
 </svg>
