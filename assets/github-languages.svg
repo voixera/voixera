@@ -87,7 +87,7 @@
       <animate attributeName="opacity" values="0;1" begin="1.52s" dur=".35s" fill="freeze" />
       <circle cx="5" cy="7" r="4.5" fill="#f1e05a" />
       <text x="18" y="12" class="language-label">JavaScript</text>
-      <text x="18" y="12" dx="70" class="language-percent">10.43%</text>
+      <text x="18" y="12" dx="70" class="language-percent">10.42%</text>
     </g>
     <g transform="translate(296 132)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.60s" dur=".35s" fill="freeze" />
@@ -133,5 +133,5 @@
     </g>
 
   </g>
-  <!-- cache-bust: 30974476172-1-7a5bceda8199f60079040a247a9ae032c731730b -->
+  <!-- cache-bust: 31070709986-1-4772cf8d243d40b556225de91a37b92f21c43629 -->
 </svg>
