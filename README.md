@@ -47,13 +47,13 @@
 </h3>
 
 <div align="center">
-  <img src="./assets/github-overview.svg?cache_bust=32682887073-1-80008cbb8b0840d0144edec05ec3154a4d5adf43" width="49%" alt="voixera GitHub overview" />
-  <img src="./assets/github-languages.svg?cache_bust=32682887073-1-80008cbb8b0840d0144edec05ec3154a4d5adf43" width="49%" alt="Most used languages calculated by file size" />
+  <img src="./assets/github-overview.svg?cache_bust=32800920886-1-0f17af69f8d5189f3825e716ece51b12d2fb2bcf" width="49%" alt="voixera GitHub overview" />
+  <img src="./assets/github-languages.svg?cache_bust=32800920886-1-0f17af69f8d5189f3825e716ece51b12d2fb2bcf" width="49%" alt="Most used languages calculated by file size" />
 
   <br/><br/>
 
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=voixera&bg_color=0d1117&color=02731B&line=02731B&point=ffffff&area=true&area_color=02731B&hide_border=true&custom_title=Activity&radius=6&cache_bust=32682887073-1-80008cbb8b0840d0144edec05ec3154a4d5adf43"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=voixera&bg_color=0d1117&color=02731B&line=02731B&point=ffffff&area=true&area_color=02731B&hide_border=true&custom_title=Activity&radius=6&cache_bust=32800920886-1-0f17af69f8d5189f3825e716ece51b12d2fb2bcf"
     alt="GitHub contribution graph"
     width="98%"
   />
@@ -62,7 +62,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/voixera/voixera/output/github-contribution-grid-snake.svg?cache_bust=32682887073-1-80008cbb8b0840d0144edec05ec3154a4d5adf43" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/voixera/voixera/output/github-contribution-grid-snake.svg?cache_bust=32800920886-1-0f17af69f8d5189f3825e716ece51b12d2fb2bcf" alt="snake animation" />
 </p>
 
 ---
