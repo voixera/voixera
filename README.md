@@ -51,12 +51,6 @@
   <img src="./assets/github-languages.svg?cache_bust=33476209904-1-6396c5685e4e812968b4feaeb1877bfadbcf7778" width="49%" alt="Most used languages calculated by file size" />
 
   <br/><br/>
-
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=voixera&bg_color=0d1117&color=02731B&line=02731B&point=ffffff&area=true&area_color=02731B&hide_border=true&custom_title=Activity&radius=6&cache_bust=33476209904-1-6396c5685e4e812968b4feaeb1877bfadbcf7778"
-    alt="GitHub contribution graph"
-    width="98%"
-  />
 </div>
 
 ---
