@@ -32,30 +32,30 @@
     </clipPath>
     <rect x="24" y="64" width="412" height="12" rx="6" fill="#eaeef2" />
     <g clip-path="url(#language-progress-clip)">
-      <rect x="24" y="64" width="126" height="12" fill="#00A2FF">
-        <animate attributeName="width" values="0;126" begin="1.05s" dur=".65s" fill="freeze" />
-      </rect><rect x="150" y="64" width="68" height="12" fill="#3178c6">
-        <animate attributeName="width" values="0;68" begin="1.09s" dur=".65s" fill="freeze" />
-      </rect><rect x="218" y="64" width="64" height="12" fill="#3572A5">
-        <animate attributeName="width" values="0;64" begin="1.13s" dur=".65s" fill="freeze" />
-      </rect><rect x="282" y="64" width="37" height="12" fill="#000080">
-        <animate attributeName="width" values="0;37" begin="1.17s" dur=".65s" fill="freeze" />
-      </rect><rect x="319" y="64" width="31" height="12" fill="#f1e05a">
-        <animate attributeName="width" values="0;31" begin="1.21s" dur=".65s" fill="freeze" />
-      </rect><rect x="350" y="64" width="22" height="12" fill="#663399">
-        <animate attributeName="width" values="0;22" begin="1.25s" dur=".65s" fill="freeze" />
-      </rect><rect x="372" y="64" width="21" height="12" fill="#e34c26">
-        <animate attributeName="width" values="0;21" begin="1.29s" dur=".65s" fill="freeze" />
-      </rect><rect x="393" y="64" width="18" height="12" fill="#4F5D95">
-        <animate attributeName="width" values="0;18" begin="1.33s" dur=".65s" fill="freeze" />
-      </rect><rect x="411" y="64" width="8" height="12" fill="#00ADD8">
-        <animate attributeName="width" values="0;8" begin="1.37s" dur=".65s" fill="freeze" />
-      </rect><rect x="419" y="64" width="6" height="12" fill="#dea584">
-        <animate attributeName="width" values="0;6" begin="1.41s" dur=".65s" fill="freeze" />
-      </rect><rect x="425" y="64" width="4" height="12" fill="#012456">
-        <animate attributeName="width" values="0;4" begin="1.45s" dur=".65s" fill="freeze" />
-      </rect><rect x="429" y="64" width="7" height="12" fill="#A97BFF">
-        <animate attributeName="width" values="0;7" begin="1.49s" dur=".65s" fill="freeze" />
+      <rect x="24" y="64" width="141" height="12" fill="#00A2FF">
+        <animate attributeName="width" values="0;141" begin="1.05s" dur=".65s" fill="freeze" />
+      </rect><rect x="165" y="64" width="73" height="12" fill="#3572A5">
+        <animate attributeName="width" values="0;73" begin="1.09s" dur=".65s" fill="freeze" />
+      </rect><rect x="238" y="64" width="70" height="12" fill="#3178c6">
+        <animate attributeName="width" values="0;70" begin="1.13s" dur=".65s" fill="freeze" />
+      </rect><rect x="308" y="64" width="35" height="12" fill="#f1e05a">
+        <animate attributeName="width" values="0;35" begin="1.17s" dur=".65s" fill="freeze" />
+      </rect><rect x="343" y="64" width="24" height="12" fill="#e34c26">
+        <animate attributeName="width" values="0;24" begin="1.21s" dur=".65s" fill="freeze" />
+      </rect><rect x="367" y="64" width="20" height="12" fill="#663399">
+        <animate attributeName="width" values="0;20" begin="1.25s" dur=".65s" fill="freeze" />
+      </rect><rect x="387" y="64" width="20" height="12" fill="#4F5D95">
+        <animate attributeName="width" values="0;20" begin="1.29s" dur=".65s" fill="freeze" />
+      </rect><rect x="407" y="64" width="9" height="12" fill="#00ADD8">
+        <animate attributeName="width" values="0;9" begin="1.33s" dur=".65s" fill="freeze" />
+      </rect><rect x="416" y="64" width="7" height="12" fill="#dea584">
+        <animate attributeName="width" values="0;7" begin="1.37s" dur=".65s" fill="freeze" />
+      </rect><rect x="423" y="64" width="5" height="12" fill="#012456">
+        <animate attributeName="width" values="0;5" begin="1.41s" dur=".65s" fill="freeze" />
+      </rect><rect x="428" y="64" width="3" height="12" fill="#A97BFF">
+        <animate attributeName="width" values="0;3" begin="1.45s" dur=".65s" fill="freeze" />
+      </rect><rect x="431" y="64" width="5" height="12" fill="#238636">
+        <animate attributeName="width" values="0;5" begin="1.49s" dur=".65s" fill="freeze" />
       </rect>
     </g>
     
@@ -63,75 +63,75 @@
       <animate attributeName="opacity" values="0;1" begin="1.20s" dur=".35s" fill="freeze" />
       <circle cx="5" cy="7" r="4.5" fill="#00A2FF" />
       <text x="18" y="12" class="language-label">Luau</text>
-      <text x="18" y="12" dx="44" class="language-percent">30.65%</text>
+      <text x="18" y="12" dx="44" class="language-percent">34.21%</text>
     </g>
     <g transform="translate(160 104)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.28s" dur=".35s" fill="freeze" />
-      <circle cx="5" cy="7" r="4.5" fill="#3178c6" />
-      <text x="18" y="12" class="language-label">TypeScript</text>
-      <text x="18" y="12" dx="70" class="language-percent">16.53%</text>
+      <circle cx="5" cy="7" r="4.5" fill="#3572A5" />
+      <text x="18" y="12" class="language-label">Python</text>
+      <text x="18" y="12" dx="44" class="language-percent">17.70%</text>
     </g>
     <g transform="translate(296 104)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.36s" dur=".35s" fill="freeze" />
-      <circle cx="5" cy="7" r="4.5" fill="#3572A5" />
-      <text x="18" y="12" class="language-label">Python</text>
-      <text x="18" y="12" dx="44" class="language-percent">15.57%</text>
+      <circle cx="5" cy="7" r="4.5" fill="#3178c6" />
+      <text x="18" y="12" class="language-label">TypeScript</text>
+      <text x="18" y="12" dx="70" class="language-percent">17.08%</text>
     </g>
     <g transform="translate(24 132)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.44s" dur=".35s" fill="freeze" />
-      <circle cx="5" cy="7" r="4.5" fill="#000080" />
-      <text x="18" y="12" class="language-label">Lua</text>
-      <text x="18" y="12" dx="44" class="language-percent">9.05%</text>
+      <circle cx="5" cy="7" r="4.5" fill="#f1e05a" />
+      <text x="18" y="12" class="language-label">JavaScript</text>
+      <text x="18" y="12" dx="70" class="language-percent">8.54%</text>
     </g>
     <g transform="translate(160 132)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.52s" dur=".35s" fill="freeze" />
-      <circle cx="5" cy="7" r="4.5" fill="#f1e05a" />
-      <text x="18" y="12" class="language-label">JavaScript</text>
-      <text x="18" y="12" dx="70" class="language-percent">7.55%</text>
+      <circle cx="5" cy="7" r="4.5" fill="#e34c26" />
+      <text x="18" y="12" class="language-label">HTML</text>
+      <text x="18" y="12" dx="44" class="language-percent">5.81%</text>
     </g>
     <g transform="translate(296 132)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.60s" dur=".35s" fill="freeze" />
       <circle cx="5" cy="7" r="4.5" fill="#663399" />
       <text x="18" y="12" class="language-label">CSS</text>
-      <text x="18" y="12" dx="44" class="language-percent">5.30%</text>
+      <text x="18" y="12" dx="44" class="language-percent">4.92%</text>
     </g>
     <g transform="translate(24 160)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.68s" dur=".35s" fill="freeze" />
-      <circle cx="5" cy="7" r="4.5" fill="#e34c26" />
-      <text x="18" y="12" class="language-label">HTML</text>
-      <text x="18" y="12" dx="44" class="language-percent">5.11%</text>
+      <circle cx="5" cy="7" r="4.5" fill="#4F5D95" />
+      <text x="18" y="12" class="language-label">PHP</text>
+      <text x="18" y="12" dx="44" class="language-percent">4.86%</text>
     </g>
     <g transform="translate(160 160)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.76s" dur=".35s" fill="freeze" />
-      <circle cx="5" cy="7" r="4.5" fill="#4F5D95" />
-      <text x="18" y="12" class="language-label">PHP</text>
-      <text x="18" y="12" dx="44" class="language-percent">4.28%</text>
+      <circle cx="5" cy="7" r="4.5" fill="#00ADD8" />
+      <text x="18" y="12" class="language-label">Go</text>
+      <text x="18" y="12" dx="44" class="language-percent">2.26%</text>
     </g>
     <g transform="translate(296 160)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.84s" dur=".35s" fill="freeze" />
-      <circle cx="5" cy="7" r="4.5" fill="#00ADD8" />
-      <text x="18" y="12" class="language-label">Go</text>
-      <text x="18" y="12" dx="44" class="language-percent">1.99%</text>
+      <circle cx="5" cy="7" r="4.5" fill="#dea584" />
+      <text x="18" y="12" class="language-label">Rust</text>
+      <text x="18" y="12" dx="44" class="language-percent">1.73%</text>
     </g>
     <g transform="translate(24 188)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="1.92s" dur=".35s" fill="freeze" />
-      <circle cx="5" cy="7" r="4.5" fill="#dea584" />
-      <text x="18" y="12" class="language-label">Rust</text>
-      <text x="18" y="12" dx="44" class="language-percent">1.52%</text>
+      <circle cx="5" cy="7" r="4.5" fill="#012456" />
+      <text x="18" y="12" class="language-label">PowerShell</text>
+      <text x="18" y="12" dx="70" class="language-percent">1.13%</text>
     </g>
     <g transform="translate(160 188)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="2.00s" dur=".35s" fill="freeze" />
-      <circle cx="5" cy="7" r="4.5" fill="#012456" />
-      <text x="18" y="12" class="language-label">PowerShell</text>
-      <text x="18" y="12" dx="70" class="language-percent">0.99%</text>
+      <circle cx="5" cy="7" r="4.5" fill="#A97BFF" />
+      <text x="18" y="12" class="language-label">Kotlin</text>
+      <text x="18" y="12" dx="44" class="language-percent">0.64%</text>
     </g>
     <g transform="translate(296 188)" opacity="0">
       <animate attributeName="opacity" values="0;1" begin="2.08s" dur=".35s" fill="freeze" />
-      <circle cx="5" cy="7" r="4.5" fill="#A97BFF" />
-      <text x="18" y="12" class="language-label">Kotlin</text>
-      <text x="18" y="12" dx="44" class="language-percent">0.56%</text>
+      <circle cx="5" cy="7" r="4.5" fill="#238636" />
+      <text x="18" y="12" class="language-label">Swift</text>
+      <text x="18" y="12" dx="44" class="language-percent">0.63%</text>
     </g>
 
   </g>
-  <!-- cache-bust: 37897705985-1-ea0e2c8fb15f90b14311dffd4a0f7a68139febbe -->
+  <!-- cache-bust: 38032165767-1-79ace81d4cf9c12c16cb4f3698f2d704b9e76f2b -->
 </svg>
